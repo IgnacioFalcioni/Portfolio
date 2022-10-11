@@ -1,12 +1,14 @@
+@import '../base/extend';
+@import '../base/listas';
 footer{
     background-color:  #414141;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
     .contenedor-footer{
-        display: flex;
+        @extend %flexfooter;
         width: 90%;
-        justify-content: space-evenly;
+        
         margin: auto;
         padding-bottom: 50px;
         border-bottom: 1px solid #ccc;
@@ -14,7 +16,7 @@ footer{
             text-align: center;
             h4{
                 color: #f2f2f2;
-                border-bottom: 3px solid green;
+                border-bottom: 3px solid nth($colores, 4);
                 padding-bottom: 5px;
                 margin-bottom: 10px;
 

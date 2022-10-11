@@ -22,6 +22,20 @@ body {
   margin-bottom: 60px;
 }
 
+footer .contenedor-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header .textos-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 430px;
+  width: 100%;
+}
+
 header {
   width: 100%;
   height: 600px;
@@ -53,12 +67,6 @@ header nav div div ul li a:hover {
   }
 }
 header .textos-header {
-  display: flex;
-  height: 430px;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   text-align: center;
   padding: 20px;
 }
@@ -242,6 +250,20 @@ header .textos-header p {
   }
 }
 
+footer .contenedor-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header .textos-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 430px;
+  width: 100%;
+}
+
 footer {
   background-color: #414141;
   padding: 60px 0 30px 0;
@@ -249,9 +271,7 @@ footer {
   overflow: hidden;
 }
 footer .contenedor-footer {
-  display: flex;
   width: 90%;
-  justify-content: space-evenly;
   margin: auto;
   padding-bottom: 50px;
   border-bottom: 1px solid #ccc;
@@ -267,6 +287,20 @@ footer .contenedor-footer .content-foo h4 {
 }
 footer .contenedor-footer .content-foo p {
   color: #ccc;
+}
+
+footer .contenedor-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header .textos-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 430px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

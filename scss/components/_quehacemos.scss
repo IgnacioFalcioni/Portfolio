@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 .sobre-nosotros{
     
     
@@ -21,8 +23,8 @@
         .contenido-textos{
           padding: 10px;
     
-          background: green;
-          color: white;
+          background: nth($colores, 4);
+          color: nth($colores, 3 );
           border-radius: 10px;
           text-align: center;
           

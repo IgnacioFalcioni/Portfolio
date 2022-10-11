@@ -1,0 +1,15 @@
+%flexfooter{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+%flexheader{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ height: 430px;
+ width: 100%;
+
+}
